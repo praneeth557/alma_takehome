@@ -39,7 +39,9 @@ const formSchema = z.object({
   linkedinProfile: z
     .string()
     .url('Please enter a valid LinkedIn URL')
-    .includes('linkedin.com', 'Please enter a valid LinkedIn profile URL'),
+    .refine((url) => url.includes('linkedin.com'), {
+      message: 'Please enter a valid LinkedIn profile URL',
+    }),
   visasOfInterest: z
     .array(z.string())
     .min(1, 'Please select at least one visa type')
