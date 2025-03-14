@@ -2,6 +2,9 @@
 
 A Next.js application for managing immigration case assessments, featuring a public lead submission form and an admin dashboard for lead management.
 
+## Deployed application to vercel
+https://alma-takehome.vercel.app/
+
 ## Features
 
 ### Public Features
