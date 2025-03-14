@@ -20,7 +20,83 @@ const mockLeads: Lead[] = [
     status: 'PENDING',
     submittedAt: '2024-02-02T14:45:00Z'
   },
-  // Add more mock leads as needed
+  {
+    id: '2',
+    firstName: 'Bahar',
+    lastName: 'Zamir',
+    email: 'bahar@example.com',
+    country: 'Mexico',
+    linkedinProfile: 'https://linkedin.com/in/bahar',
+    visasOfInterest: ['O-1'],
+    status: 'PENDING',
+    submittedAt: '2024-03-05T10:45:00Z'
+  },
+  {
+    id: '3',
+    firstName: 'Mary',
+    lastName: 'Lopez',
+    email: 'mary@example.com',
+    country: 'Brazil',
+    linkedinProfile: 'https://linkedin.com/in/mary',
+    visasOfInterest: ['O-1'],
+    status: 'PENDING',
+    submittedAt: '2024-02-02T14:45:00Z'
+  },
+  {
+    id: '4',
+    firstName: 'Li',
+    lastName: 'Zijin',
+    email: 'li@example.com',
+    country: 'South Korea',
+    linkedinProfile: 'https://linkedin.com/in/li',
+    visasOfInterest: ['O-1'],
+    status: 'PENDING',
+    submittedAt: '2024-02-02T14:45:00Z'
+  },
+  {
+    id: '5',
+    firstName: 'Mark',
+    lastName: 'Antonov',
+    email: 'mark@example.com',
+    country: 'Russia',
+    linkedinProfile: 'https://linkedin.com/in/mark',
+    visasOfInterest: ['O-1'],
+    status: 'PENDING',
+    submittedAt: '2024-02-02T14:45:00Z'
+  },
+  {
+    id: '6',
+    firstName: 'Jane',
+    lastName: 'Ma',
+    email: 'jane@example.com',
+    country: 'Mexico',
+    linkedinProfile: 'https://linkedin.com/in/jane',
+    visasOfInterest: ['O-1'],
+    status: 'PENDING',
+    submittedAt: '2024-02-02T14:45:00Z'
+  },
+  {
+    id: '7',
+    firstName: 'Anand',
+    lastName: 'Jain',
+    email: 'anand@example.com',
+    country: 'India',
+    linkedinProfile: 'https://linkedin.com/in/anand',
+    visasOfInterest: ['O-1'],
+    status: 'PENDING',
+    submittedAt: '2024-02-02T14:45:00Z'
+  },
+  {
+    id: '8',
+    firstName: 'Anna',
+    lastName: 'Voronova',
+    email: 'jorge@example.com',
+    country: 'France',
+    linkedinProfile: 'https://linkedin.com/in/anna',
+    visasOfInterest: ['O-1'],
+    status: 'PENDING',
+    submittedAt: '2024-02-02T14:45:00Z'
+  },
 ];
 
 export default function AdminPage() {
